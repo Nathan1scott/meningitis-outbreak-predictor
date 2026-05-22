@@ -2,25 +2,43 @@
 
 
 
-AI-powered early warning system for meningitis outbreaks in the African Meningitis Belt.
+\[!\[Python](https://img.shields.io/badge/Python-3.10-blue)](https://python.org)
+
+\[!\[Dash](https://img.shields.io/badge/Dash-4.1.0-red)](https://dash.plotly.com)
+
+\[!\[License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+\[!\[WHO Data](https://img.shields.io/badge/Data-WHO%20AFRO-brightgreen)](https://data.afro.who.int)
 
 
 
-\## Features
+> An AI-powered early warning system for meningitis outbreaks in the African Meningitis Belt.
 
 
 
-\- \*\*Real WHO AFRO data\*\* – Historical meningitis records for West Africa
+\## Problem Statement
 
-\- \*\*Outbreak prediction\*\* – Based on seasonal patterns (dry season/harmattan)
 
-\- \*\*Interactive dashboard\*\* – Filter by country, year, month
 
-\- \*\*Share \& Export\*\* – Email reports, PDF download, WhatsApp/Twitter share
+Meningitis kills thousands annually in West Africa's \*\*"Meningitis Belt"\*\* during dry season (December-June). Health ministries lack real-time predictive tools.
 
-\- \*\*Mobile responsive\*\* – Works on phones, tablets, desktops
 
-\- \*\*Health Green theme\*\* – Clean, professional design
+
+\## Key Features
+
+
+
+\- \*\*Real WHO AFRO Data\*\* - Historical meningitis records for 10+ West African countries
+
+\- \*\*Seasonal Prediction\*\* - Predicts outbreaks 4-6 weeks ahead using dry season patterns
+
+\- \*\*Interactive Dashboard\*\* - Filter by country, year, month
+
+\- \*\*Risk Scoring\*\* - HIGH/MEDIUM/LOW risk levels with color-coded alerts
+
+\- \*\*Share \& Export\*\* - Email reports, PDF export, WhatsApp/Twitter sharing
+
+\- \*\*Mobile Responsive\*\* - Works on phones, tablets, desktops
 
 
 
@@ -28,15 +46,11 @@ AI-powered early warning system for meningitis outbreaks in the African Meningit
 
 
 
-\- Python
+\- Python, Dash, Plotly
 
-\- Dash / Plotly
+\- Pandas, NumPy
 
-\- Pandas / NumPy
-
-\- Scikit-learn
-
-\- Pyperclip
+\- Scikit-learn Random Forest
 
 
 
